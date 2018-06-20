@@ -1,9 +1,15 @@
 {
   "presets": [
-    "es2015"
+    "es2015",
+    [
+      "env",
+      {
+        "targets": {"browsers": ["last 2 versions", "Firefox ESR", "> 1%", "ie >= 8", "iOS >= 8", "Android >= 4"]}
+      }
+    ]
 //    "react",
 //    "stage-0"
   ],
   "plugins": [],
-  "ignore":[]//'index.js'
+  "ignore":[]//"index.js"
 }

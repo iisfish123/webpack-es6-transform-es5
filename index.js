@@ -1,3 +1,5 @@
+import 'babel-polyfill';
+
 (function(){
     let a = 1;
     let b = new Promise((resolve,reject)=>{
