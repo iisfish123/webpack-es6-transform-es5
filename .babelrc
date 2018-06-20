@@ -10,6 +10,15 @@
 //    "react",
 //    "stage-0"
   ],
-  "plugins": [],
+
+//  "plugins": ["transform-runtime"],//下面代码是这里的默认
+  "plugins": [
+    ["transform-runtime", {
+      "helpers": true,
+      "polyfill": true,//使用polyfill
+      "regenerator": true,
+      "moduleName": "babel-runtime"
+    }]
+  ],
   "ignore":[]//"index.js"
 }
