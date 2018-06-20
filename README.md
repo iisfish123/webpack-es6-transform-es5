@@ -39,11 +39,12 @@ http://localhost:9091/bundle.js
 ### babel-loader：
 webpack的loader，不解释
 
-### babel-preset-es2015:
+### babel-preset-es2015和babel-preset-env:
 还有如下这些
-babel-preset-es2015 将es2015版本的js转译为es5,
-babel-preset-es2016 将es2016版本的js转译为es5,
-babel-preset-es2017 将es2017版本的js转译为es5,
+babel-preset-es2015 将es2015版本的js转译为es5</br>
+babel-preset-es2016 将es2016版本的js转译为es5,</br>
+babel-preset-es2017 将es2017版本的js转译为es5,</br>
+以上已经预编译已经全部被弃用，最新可以直接使用babel-preset-env即可
 在转译过程中遇到更高版本的js语法，babel是会直接忽略的
 
 ### babel-core:
