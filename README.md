@@ -61,4 +61,5 @@ babel-polyfill的原理：是由于低版本浏览器没有例如Promise这样�
 .babelrc文件
 babel的配置文件，
 特点之一，倒序转译
+先
 
