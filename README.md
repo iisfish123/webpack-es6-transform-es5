@@ -44,7 +44,7 @@ webpack的loader，不解释
 babel-preset-es2015 将es2015版本的js转译为es5,
 babel-preset-es2016 将es2016版本的js转译为es5,
 babel-preset-es2017 将es2017版本的js转译为es5,
-在转译过程中遇到更高版本的js语法，babel是会直接忽略的。
+在转译过程中遇到更高版本的js语法，babel是会直接忽略的
 
 ### babel-core:
 使用失败，硬是不知道怎么用，不过这东西好像也没什么作用
