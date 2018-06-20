@@ -7,7 +7,7 @@ webpack转换，并打包单一入口文件
 }
 npm start相当于执行后面的cd scripts && set NODE_ENV=development && webpack-dev-server --inline --port 9091
 
-####什么是shell?
+#### 什么是shell?
 shell就是系统内核的一层壳，作用是用来保护内核同时传递人与计算机交互的信息。
 它只是系统的一个工具，我们可以 使用它来操作计算机。
 
