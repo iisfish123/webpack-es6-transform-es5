@@ -83,8 +83,8 @@ class A{
 }
 这个实例方法b，转译失败。
 解决办法是安装babel-preset-react-app，然后设置
-process.env.BABEL_ENV和process.env.NODE_ENV;(babel-preset-react-app要求的)
-最后配置好.babelrc    "presets": ["react-app"]
+process.env.BABEL_ENV和process.env.NODE_ENV(babel-preset-react-app要求的)
+最后配置好.babelrc文件    "presets": ["react-app"]
 
 
 
