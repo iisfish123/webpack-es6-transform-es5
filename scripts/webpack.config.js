@@ -3,8 +3,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 // const polyfill = require("babel-polyfill");
-// process.env.BABEL_ENV = 'development';
-// process.env.NODE_ENV = 'development';
+process.env.BABEL_ENV = 'development';
+process.env.NODE_ENV = 'development';
 // console.info(__dirname);//D:\vhost\webpack-es6-transform-es5\scripts
 // return;
 

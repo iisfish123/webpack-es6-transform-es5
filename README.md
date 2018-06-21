@@ -75,3 +75,16 @@ babel-runtime可以用插件babel-plugin-transform-runtime替代，
 特点二：使用插件
 
 
+### 2018/06/21
+发现如:
+class A{
+    b = ()=> {}
+    c(){}
+}
+这个实例方法b，转译失败。
+解决办法是安装babel-preset-react-app，然后设置
+process.env.BABEL_ENV和process.env.NODE_ENV;(babel-preset-react-app要求的)
+最后配置好.babelrc    "presets": ["react-app"]
+
+
+
